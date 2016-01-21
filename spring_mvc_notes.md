@@ -80,6 +80,7 @@ Important Annotation & Code Fragments:
 
 > In return value of method, prefix it with "redirect:"
 
+> It will do Client side redirection. ie 302 response code will be sent with redirect url.
 
 
 
