@@ -44,7 +44,7 @@ Important Annotation & Code Fragments:
 
 `@RequestMapping` 
 
->On method / class level to map the method with the request URL.
+> On method / class level to map the method with the request URL.
 
 > The following options are available.
 
@@ -53,6 +53,20 @@ Important Annotation & Code Fragments:
 > `method` - To specify the request method. GET,POST...
 
 > `params` - To specify the query param
+
+`@ModelAttribute`
+
+> It's a shortcut to bind the incoming object to model.
+
+> @ModelAttribute("user") User user is equivalent to User user in params and model.addattribute("user",user);
+
+`@Valid`
+
+> To do bean validation(JSR 303) while binding the form values with the object.
+
+> The Results of validation can be retrieved using BindingResult parameter.
+
+
 
 `Model class` 
 
