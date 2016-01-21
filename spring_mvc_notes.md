@@ -1,4 +1,4 @@
-spring MVC
+Spring MVC
 ============
 
 Components:
@@ -58,13 +58,13 @@ Important Annotation & Code Fragments:
 
 > It's a shortcut to bind the incoming object to model.
 
-> @ModelAttribute("user") User user is equivalent to User user in params and model.addattribute("user",user);
+> `@ModelAttribute("user") User user` is equivalent to `(User user)` in params and `model.addattribute("user",user);`
 
 `@Valid`
 
 > To do bean validation(JSR 303) while binding the form values with the object.
 
-> The Results of validation can be retrieved using BindingResult parameter.
+> The Results of validation can be retrieved using `BindingResult` parameter.
 
 
 
