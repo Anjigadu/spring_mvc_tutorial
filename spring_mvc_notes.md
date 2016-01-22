@@ -116,6 +116,13 @@ Important Annotation & Code Fragments:
 
 > This is not a replacement for @Controller @ RequestMapping won't work.
 
+`@ExceptionHandler`
+
+> This is to handle the exceptions in the bean.
+
+> For the types of exception configured in the annotation, whenver it occured spring will invoke this method.
+
+
 `Model class` 
 
 > This is a map class used to pass values from controller to the jsp page
