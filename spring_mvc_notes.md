@@ -122,6 +122,11 @@ Important Annotation & Code Fragments:
 
 > For the types of exception configured in the annotation, whenver it occured spring will invoke this method.
 
+`ResponseEntity<E>`
+
+> This gives the fine control over returning objects.
+
+> We can add Headers, status code and entity using ResponseEntity class.
 
 `Model class` 
 
@@ -151,6 +156,22 @@ Important Annotation & Code Fragments:
 
 > It will do Client side redirection. ie 302 response code will be sent with redirect url.
 
+
+`Hateos`
+
+> Hypermedia As the Engine of application State.
+
+> This is to provide the URIs for subsequent requests for client.
+
+> For example, when POST request made and new resource is created we can send a get request url with the response.
+
+> Include spring hateos dependency
+
+> Construct URLs dynamically using `ControllerLinkBuilder` class.
+
+> And also when sending the collections of objects send href,rel also by extending `ResourceSupport` class.
+
+> We can add links then, using ControllerBinkBuilder in that collection.
 
 
 
