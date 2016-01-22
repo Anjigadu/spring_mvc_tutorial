@@ -66,7 +66,55 @@ Important Annotation & Code Fragments:
 
 > The Results of validation can be retrieved using `BindingResult` parameter.
 
+`@RequestBody`
 
+> This is to get the Request body (xml/json) in to the object .
+
+> This is passed as parameter of the Method.
+
+
+`@ResponseBody`
+
+> This is to send object as xml/json instead of view page
+
+> depends upon the content negotiation, jackson / jaxb present in the classpath it will return json/xml.
+
+`@RequestParam`
+
+> This is used to get query param & form parameters from the request.
+
+> Use this in the method parameter.
+
+`@PathVariable`
+
+> This is to get the path parameter from the request.
+
+> Note that the path in request mapping and path variable has to be same otherwise syntactically malformed exception will be thrown.
+
+
+`@ResponseStatus`
+
+> This is to send the Response status code of the method call.
+
+> By default, 200 will be return.
+
+`@Component`
+
+> This is to denote that the class is a bean.
+
+`@Repository`
+
+> This is a specialized version of @Component.
+
+> This has to be used in DAO classes.
+
+`@Service`
+
+> This is also specialized version of @Component.
+
+> This has to be used in the manager/service classes not to be confused with rest service.
+
+> This is not a replacement for @Controller @ RequestMapping won't work.
 
 `Model class` 
 
