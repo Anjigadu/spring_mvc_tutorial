@@ -1,8 +1,13 @@
 Spring MVC
 ============
 
+CRUD- REST Mapping explanantion
+
+http://51elliot.blogspot.in/2014/04/rest-api-best-practices-http-and-crud.html
+
 Components:
 -----------
+
 
 1. Model
 
